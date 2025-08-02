@@ -1,0 +1,10 @@
+/** @format */
+
+.administration {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.administration > h2 {
+  margin-bottom: 1rem;
+}
