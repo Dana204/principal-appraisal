@@ -1,0 +1,33 @@
+/** @format */
+
+import React from "react";
+import HeaderTop from "../../HeaderTop/HeaderTop";
+import Navbar from "../../Navbar/Navbar";
+import HeroSection from "../../HeroSection/HeroSection";
+import "./HomeSection.css";
+
+const HomeSection = () => {
+  return (
+    <div className="home-section" id="home">
+      {/* <div className="home-section__gradient"></div> */}
+      <HeaderTop />
+      <Navbar />
+      <div className="home-section__banner container"></div>
+      <div className="home-section__main container">
+        <span className="section-title">Home</span>
+        <p>Every child can learn, every child must learn</p>
+        <h1>Principal Performance Appraisal</h1>
+        <p className="text-mute">
+          The appraisal of the principal is intended to enable the principal to
+          assess him/herself and position his or her performance on a continuous
+          path of excellence, evidenced by optimum school outcomes. This
+          assessment is organized in four categories:
+        </p>
+      </div>
+
+      {/* <HeroSection /> */}
+    </div>
+  );
+};
+
+export default HomeSection;

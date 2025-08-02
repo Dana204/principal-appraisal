@@ -1,0 +1,15 @@
+.header-top {
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+  background: linear-gradient(
+    110deg,
+    rgba(0, 0, 0, 0.9) 60%,
+    var(--gray200) 60%
+  );
+}
+
+@media (max-width: 860px) {
+  .header-top {
+    display: none;
+  }
+}

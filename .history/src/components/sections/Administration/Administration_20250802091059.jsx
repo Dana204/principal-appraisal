@@ -1,0 +1,31 @@
+/** @format */
+
+import React from "react";
+import "./Administration.css";
+import RightArrowIcon from "../../../assets/icons/right-arrow.svg?react";
+import VisionIcon from "../../../assets/icons/vision.svg?react";
+import CheckboxIcon from "../../../assets/icons/checkbox.svg?react";
+import Image1 from "../../../assets/images/hero-image.jpg";
+import Image2 from "../../../assets/images/hero-image2.jpg";
+import SectionTitle from "../../SectionTitle/SectionTitle";
+import AboutSectionCard from "../../AboutSectionCard/AboutSectionCard";
+import ButtonFilled from "../../ButtonFilled/ButtonFilled";
+
+export const Administration = () => {
+  return (
+    <section
+      className="administration container"
+      id="AdministrationandManagement"
+    >
+      <h2>Administration and Management</h2>
+      {/* <div className="section-title">Planning, Organization and Operation</div>
+      <div className="section-title">Financial Management</div>
+      <div className="section-title">Professional Capacity Building</div> */}
+
+      {/* <div className="section-subitem">
+        <h3>Planning, Organization and Operation</h3>
+
+      </div> */}
+    </section>
+  );
+};

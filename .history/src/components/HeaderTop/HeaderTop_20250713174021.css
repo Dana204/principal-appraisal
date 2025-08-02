@@ -1,0 +1,9 @@
+
+.header-top {
+	padding-top: var(--spacing-md);
+	padding-bottom: var(--spacing-md);
+	background: var(--gray100);
+	
+}
+
+
