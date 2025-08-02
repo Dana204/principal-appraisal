@@ -1,0 +1,81 @@
+.section-title > p,
+.section-title h2 .highlight  {
+     font-family: var(--literata);
+    color: var(--secondary-color);
+    
+}
+
+.section-title > p {
+    font-size: 14px;
+    width: fit-content;
+    position: relative;
+    font-weight: 500;
+      margin-bottom: var(--spacing-md);
+    text-transform: uppercase;
+}
+
+
+
+.section-title h2 {
+    width: 20ch;
+    font-weight: bold;
+}
+
+/* MODES */
+
+.section-title.light h2 {
+    color: var(--white);
+}
+
+/* VARIANTS */
+
+.section-title.center > * {
+    text-align: center;
+    margin: 0 auto;
+}
+.section-title.right > * {
+    text-align: right;
+    margin-left: auto;
+}
+
+.section-title.center p {
+    padding: 0 90px;
+}
+
+.section-title.left p {
+    padding-right: 80px;
+}
+
+.section-title.right p {
+    padding-left: 80px;
+}
+
+
+.section-title.center p::before,
+.section-title.center p::after,
+.section-title.left p::after,
+.section-title.right p::after
+ {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--secondary-color);
+}
+
+.section-title.center p::after,
+.section-title.left p::after {
+    right: 0;
+}
+.section-title.center p::before,
+.section-title.right p::after {
+    left: 0;
+}
+
+@media (max-width: 500px) {
+  .section-title h2 {
+    width: auto;
+}
+}

@@ -1,0 +1,120 @@
+.accordion-item {
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: #f8f9fa;
+  cursor: pointer;
+  border-left: 4px solid #e74c3c;
+  transition: all 0.3s ease;
+  position: relative;
+  user-select: none;
+}
+
+.accordion-header:hover {
+  background: var(--gray200);
+}
+
+/* .accordion-header:focus {
+  outline: 2px solid #3498db;
+  outline-offset: -2px;
+} */
+
+.action-title {
+  font-weight: 500;
+  font-size: 0.975rem;
+  flex: 1;
+}
+
+.action-credits {
+  color: #e74c3c;
+  font-weight: 600;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.evidence-text {
+  /* color: #7f8c8d;
+  font-size: 12px;
+  font-style: italic; */
+  font-size: 13px;
+  line-height: 1.4;
+  padding-right: 30px;
+}
+
+.accordion-icon {
+  /* position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%); */
+  width: 20px;
+  height: 20px;
+  background: #3498db;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.accordion-content {
+  border-top: 1px solid #e0e0e0;
+  background: white;
+  animation: slideDown 0.3s ease-out;
+}
+
+.accordion-content-inner {
+  padding: 20px;
+}
+
+.accordion-content h4 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.accordion-content ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.accordion-content li {
+  margin-bottom: 5px;
+  color: #34495e;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.accordion-content p {
+  margin: 8px 0;
+  color: #34495e;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px;
+  }
+}

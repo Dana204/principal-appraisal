@@ -1,0 +1,58 @@
+.section-subitem {
+  margin-bottom: var(--spacing-xxl);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: var(--white);
+}
+
+.section-subitem-header {
+  padding: var(--spacing-md) var(--spacing-lg);
+  /* border-radius: 8px 8px 0 0; */
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.section-subitem-title {
+  margin: 0;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.credits-badge {
+  font-size: 14px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px 12px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.toggle-all-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.toggle-all-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.section-subitem-body {
+  padding: 20px;
+  background: white;
+}

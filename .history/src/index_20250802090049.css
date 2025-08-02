@@ -1,0 +1,181 @@
+/** @format */
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --cultured: #f8f9faff;
+  /* --primary-color: #1A64A1ff; */
+  --primary-color: #a30707;
+  --secondary-color: #d10909;
+  /* --primary-gradient: linear-gradient(90deg, #D10909, #FF3B3B, #FF6B6B, #333333); */
+  /* --primary-gradient: linear-gradient(90deg, #D10909, #FF3B3B, #FF6B6B, #333333); */
+  --primary-gradient: linear-gradient(90deg, #8b0606, #d10909, #ff3b3b);
+  /* --primary-color: #0466c8; */
+  /* --secondary-color: #E3F0FF; */
+  --accent-color: #f5737f;
+  /* --accent-color: #010E37ff; */
+  --red: #e51e22;
+  --oxford-blue: #010e37ff;
+  --oxford-blue-2: #010e37ff;
+  /* --red100: rgb(229, 31, 35, ); */
+
+  /* --gray100: #e9ecef; */
+  --gray100: #f2f4f6;
+  --gray200: #e5e5e5;
+  --gray300: #8d959d;
+  --gray400: #6c757d;
+  --gray500: #131515;
+  --gray600: #16181d;
+  /* --gray600: #16181d; */
+  --gray700: #070606;
+  --gray900: #1f1f1f;
+
+  --literata: "Literata", serif;
+  --box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  --box-shadow2: -20px 20px 20px rgba(0, 0, 0, 0.02);
+  --box-shadow3: rgba(0, 0, 0, 0.08) 0px 7px 29px 0px;
+
+  --px8: calc(8 / 16 * 1rem);
+  --icon-size-sm: calc(14 / 16 * 1rem);
+  --icon-size-md: calc(18 / 16 * 1rem);
+  --icon-size-lg: calc(24 / 16 * 1rem);
+  --icon-size-xl: calc(32 / 16 * 1rem);
+  /* --icon-size-sm: calc(20 / 16 * 1rem); */
+
+  --spacing-sm: calc(5 / 16 * 1rem); /* 5px */
+  --spacing-md: calc(10 / 16 * 1rem); /* 10px */
+  --spacing-lg: calc(15 / 16 * 1rem); /* 15px */
+  --spacing-xl: calc(20 / 16 * 1rem); /* 20px */
+  --spacing-xxl: calc(32 / 16 * 1rem); /* 32px */
+
+  --font-size-xs: calc(10 / 16 * 1rem); /* 10px */
+  --font-size-sm: calc(14 / 16 * 1rem); /* 14px */
+  --br-main: calc(25 / 16 * 1rem); /* 25px */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  letter-spacing: 0.7px;
+  color: var(--eerie-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--literata);
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+/* Responsive header tags using CSS clamp() */
+h1 {
+  font-size: clamp(
+    1.5rem,
+    5vw + 1rem,
+    2.5rem
+  ); /* Scales between 1.5rem and 2.5rem */
+  font-weight: 500;
+}
+
+h2 {
+  font-size: clamp(
+    1.25rem,
+    4vw + 1rem,
+    2rem
+  ); /* Scales between 1.25rem and 2rem */
+  font-weight: 500;
+}
+
+h3 {
+  font-size: clamp(
+    1.1rem,
+    3vw + 1rem,
+    1.75rem
+  ); /* Scales between 1.1rem and 1.75rem */
+}
+
+h4 {
+  font-size: clamp(
+    1rem,
+    2.5vw + 0.8rem,
+    1.5rem
+  ); /* Scales between 1rem and 1.5rem */
+}
+
+h5 {
+  font-size: clamp(
+    0.9rem,
+    2vw + 0.8rem,
+    1.25rem
+  ); /* Scales between 0.9rem and 1.25rem */
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  /* outline: none; */
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  max-width: 1500px;
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.text-muted {
+  color: var(--gray500);
+  font-weight: 400;
+  font-size: 0.975rem;
+  opacity: 0.6;
+}
+
+.section-title {
+  background: var(--gray100);
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+.section-subitem {
+  background: var(--gray100);
+  border: 1px solid var(--gray200);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}

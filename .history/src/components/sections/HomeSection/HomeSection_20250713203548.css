@@ -1,0 +1,18 @@
+.home-section {
+  position: relative;
+}
+
+.home-section__gradient {
+  background: linear-gradient(110deg, #001d3d 62%, transparent 60%);
+  /* background:  linear-gradient(110deg, rgba(0, 0, 0, 0.9) 62%, transparent 60%); */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 48rem) {
+  .home-section__gradient {
+    display: none;
+  }
+}

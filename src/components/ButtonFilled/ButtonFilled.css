@@ -1,0 +1,37 @@
+.button-filled {
+    /* background-color: var(--secondary-color); */
+    background-color: var(--gray200);
+    border: 0;
+    border-radius: 25px;
+    padding: 2px ;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    min-width: 9rem;
+    min-height: 35px;
+}
+
+.button-filled span {
+    background: var(--primary-color);
+     padding: var(--spacing-md) var(--spacing-xl);
+     border-radius: 25px;
+}
+
+.button-filled div {
+    display: grid;
+    place-items: center;
+    height:38px;
+    width: 38px;
+    border-radius: 50%;
+    /* background: var(--gray600); */
+    background: var(--white);
+}
+
+.button-filled div svg {
+     height: var(--icon-size-md);
+    width: var(--icon-size-md);
+     /* color: var(--white); */
+     color: var(--primary-color);
+}

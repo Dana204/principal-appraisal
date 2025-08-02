@@ -1,0 +1,8 @@
+.news-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.news-section__grid {
+    margin-top: var(--spacing-xxl);
+}
