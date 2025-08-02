@@ -62,8 +62,8 @@
 @media (max-width: 1500px) {
   .home-section__banner {
     border-radius: 0;
-    /* margin-left: 1rem;
+    margin-left: 1rem;
     margin-right: 1rem;
-    max-width: calc(100% - 2rem); */
+    max-width: calc(100% - 2rem);
   }
 }

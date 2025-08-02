@@ -45,7 +45,7 @@
 }
 
 .home-section__main h1 {
-  font-size: clamp(2rem, 1vw + 1rem, 46px);
+  font-size: clamp(2rem, 2vw + 1rem, 6px);
 }
 
 /* .home-section__main > div h1 mark {
@@ -63,7 +63,7 @@
   .home-section__banner {
     border-radius: 0;
     /* margin-left: 1rem;
-    margin-right: 1rem;
-    max-width: calc(100% - 2rem); */
+    margin-right: 1rem; */
+    max-width: 100%;
   }
 }

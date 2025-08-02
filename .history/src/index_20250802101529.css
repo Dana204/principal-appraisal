@@ -91,7 +91,7 @@ h2 {
   font-size: clamp(
     1.25rem,
     4vw + 1rem,
-    1.8rem
+    1rem
   ); /* Scales between 1.25rem and 2rem */
   /* font-weight: 500; */
 }

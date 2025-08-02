@@ -87,7 +87,7 @@ nav.scrolled .navbar > a {
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-xl);
-  max-width: 50%;
+  max-width: 60%;
   margin-left: auto;
   padding: 0;
   text-align: right;
@@ -155,10 +155,5 @@ nav.scrolled .navbar > a {
 
   .navbar__btn {
     display: none;
-  }
-}
-@media (max-width: 1200px) {
-  .navbar__list {
-    max-width: 60%;
   }
 }

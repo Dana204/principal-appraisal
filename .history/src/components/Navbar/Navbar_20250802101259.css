@@ -157,7 +157,7 @@ nav.scrolled .navbar > a {
     display: none;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .navbar__list {
     max-width: 60%;
   }
